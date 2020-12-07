@@ -25,6 +25,16 @@ assuming that `latex.mplstyle` is in the current working directory (otherwise re
 
 Note: the LaTeX style will not properly load through `plt.style.context('latex.mplstyle')`. LaTeX rendering is also slower and requires a local TeX installation.
 
+## Examples
+
+Here are two figures from `example.ipynb` which show the `light` and `dark` color schemes with the `paper-single` style and `latex` rendering.
+
+CartographY light                                                        |  CartographY dark
+:-----------------------------------------------------------------------:|:-------------------------------------------------------------------------:
+`plt.style.use(['cartography-light', 'paper-single', 'latex.mplstyle'])` | `plt.style.use(['cartography-light', 'paper-single', 'latex.mplstyle'])`
+<img src="light-single-latex.png" width="420">                           |  <img src="dark-single-latex.png" width="420">
+
+
 ## Coming soon
 
 - fonts and sizes to work with posters and presentations
