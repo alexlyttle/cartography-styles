@@ -1,0 +1,4 @@
+text.usetex: True
+text.latex.preamble: \usepackage{newtxtext,newtxmath}\usepackage{amsmath,amssymb}
+font.family: serif
+#font.serif : Times

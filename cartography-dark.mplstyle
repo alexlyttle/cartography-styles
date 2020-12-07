@@ -1,0 +1,30 @@
+figure.facecolor: 002255  # <--- CartographY primary color (dark blue)
+figure.constrained_layout.use: True
+text.color: white
+axes.labelcolor: white
+legend.frameon: True
+legend.numpoints: 1
+legend.scatterpoints: 1
+legend.edgecolor: white
+xtick.direction: out
+ytick.direction: out
+xtick.color: white
+ytick.color: white
+axes.axisbelow: True
+grid.linestyle: -
+lines.solid_capstyle: round
+
+axes.grid: True
+axes.facecolor: 002255
+axes.edgecolor: 002255
+axes.linewidth: 0
+grid.color: white
+image.cmap: YlOrRd
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+
+# Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
+# "Tol-ish"; see https://personal.sron.nl/~pault/ "light" scheme
+axes.prop_cycle: cycler('color', ['77AADD', '99DDFF', '44BB99', 'FFBE1E', 'EE8866', 'FFE0E7', 'DDDDDD'])
