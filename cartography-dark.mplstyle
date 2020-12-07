@@ -27,4 +27,4 @@ ytick.minor.size: 0
 
 # Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
 # "Tol-ish"; see https://personal.sron.nl/~pault/ "light" scheme
-axes.prop_cycle: cycler('color', ['77AADD', '99DDFF', '44BB99', 'FFBE1E', 'EE8866', 'FFE0E7', 'DDDDDD'])
+axes.prop_cycle: cycler('color', ['77AADD', '99DDFF', '44BB99', 'FFBE1E', 'EE8866', 'FFE0E7', 'CCCCCC'])
