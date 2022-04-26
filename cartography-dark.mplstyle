@@ -1,5 +1,4 @@
 figure.facecolor: none
-figure.constrained_layout.use: True
 text.color: white
 axes.labelcolor: white
 legend.frameon: True
@@ -14,6 +13,7 @@ xtick.labelcolor: white
 ytick.labelcolor: white
 axes.axisbelow: True
 lines.solid_capstyle: round
+lines.markersize: 4
 
 axes.facecolor: 3B3E44
 axes.edgecolor: 3B3E44
@@ -27,4 +27,5 @@ ytick.minor.size: 4
 
 # Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
 # "Tol-ish"; see https://personal.sron.nl/~pault/ "light" scheme
-axes.prop_cycle: cycler(color=['BBCBF7', '6F59D9', 'CF6398', 'EBB847'], marker=['o', '^', 's', 'd'], linestyle=['-', '--', '-.', ':'])
+# axes.prop_cycle: cycler(color=['BBCBF7', '9383E2', 'CF6398', 'EBB847'], linestyle=['-', '--', '-.', ':'])
+axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])

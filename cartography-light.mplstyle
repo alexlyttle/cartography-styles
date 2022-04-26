@@ -1,5 +1,4 @@
 figure.facecolor: none
-figure.constrained_layout.use: True
 text.color: black
 axes.labelcolor: black
 legend.frameon: True
@@ -14,6 +13,7 @@ xtick.labelcolor: black
 ytick.labelcolor: black
 axes.axisbelow: True
 lines.solid_capstyle: round
+lines.markersize: 4
 
 axes.facecolor: DCDDE0
 axes.edgecolor: DCDDE0
@@ -27,4 +27,6 @@ ytick.minor.size: 4
 
 # Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
 # "IBM-ish"
-axes.prop_cycle: cycler(color=['648FFF', '3B16E9', 'DC237D', 'FFB000'], marker=['o', '^', 's', 'd'], linestyle=['-', '--', '-.', ':'])
+# axes.prop_cycle: cycler(color=['648FFF', '3B16E9', 'DC237D', 'FFB000'], linestyle=['-', '--', '-.', ':'])
+# axes.prop_cycle: cycler(color=['187036', 'D65C70', '81CEF5', 'EBD147', 'D194CE'], linestyle=['-', '--', '-.', ':', '-.'])
+axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])
