@@ -22,10 +22,11 @@ grid.color: .85
 image.cmap: plasma
 xtick.major.size: 4
 ytick.major.size: 4
-xtick.minor.size: 4
-ytick.minor.size: 4
+xtick.minor.size: 2
+ytick.minor.size: 2
 
 # Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
 # "Tol-ish"; see https://personal.sron.nl/~pault/ "light" scheme
 # axes.prop_cycle: cycler(color=['BBCBF7', '9383E2', 'CF6398', 'EBB847'], linestyle=['-', '--', '-.', ':'])
-axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])
+# axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])
+axes.prop_cycle: cycler(color=['0C79DA', 'D65C9E', '59AC53', 'EBC247', 'AEADEB', 'F08A75'], linestyle=['-', '--', '-.', '-', '--', '-.'])

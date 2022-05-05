@@ -15,18 +15,19 @@ axes.axisbelow: True
 lines.solid_capstyle: round
 lines.markersize: 4
 
-axes.facecolor: DCDDE0
-axes.edgecolor: DCDDE0
+axes.facecolor: E9EAED
+axes.edgecolor: E9EAED
 axes.linewidth: 0
 grid.color: .35
 image.cmap: plasma
 xtick.major.size: 4
 ytick.major.size: 4
-xtick.minor.size: 4
-ytick.minor.size: 4
+xtick.minor.size: 2
+ytick.minor.size: 2
 
 # Color-blind friendly 7-color cycle centred on CartographY accent color (yellow)
 # "IBM-ish"
 # axes.prop_cycle: cycler(color=['648FFF', '3B16E9', 'DC237D', 'FFB000'], linestyle=['-', '--', '-.', ':'])
 # axes.prop_cycle: cycler(color=['187036', 'D65C70', '81CEF5', 'EBD147', 'D194CE'], linestyle=['-', '--', '-.', ':', '-.'])
-axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])
+# axes.prop_cycle: cycler(color=['177AD1', 'DB70AA', '87C982', 'EBC247', 'A2A1E8', 'D66C5C'], linestyle=['-', '--', '-.', '-', '--', '-.'])
+axes.prop_cycle: cycler(color=['0C79DA', 'D65C9E', '59AC53', 'EBC247', 'AEADEB', 'F08A75'], linestyle=['-', '--', '-.', '-', '--', '-.'])
